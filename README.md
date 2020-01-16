@@ -6,7 +6,7 @@ To start using this web application you must first start an instance of a MySQL 
 
 Once the database has been set up, the following steps should be done: 
 
-- Execute 'php artisan migrate' in terminal to migrate database tables
+- Execute ´php artisan migrate´ in terminal to migrate database tables
 - Execute 'php artisan serve' to start server instance
 - Head to the address specified in terminal by holding down control and clicking it
 
