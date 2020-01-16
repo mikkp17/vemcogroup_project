@@ -88,8 +88,8 @@
             </div>
 
             <div class="links">
-                <a href="{{ url('/create') }}">Create new excel sheet</a>
                 <a href="{{ url('/download') }}">Download excel sheet</a>
+                <a href="{{ url('/create') }}">Create new excel sheet</a>
             </div>
         </div>
     </div>

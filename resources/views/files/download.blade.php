@@ -14,6 +14,8 @@
                     </div>
                     @endif
 
+                    Excel sheets available for download:<br><br>
+
                     <div>
                         @foreach ($files as $file)
                         <a href="{{ url('/download/' . $file) }}">{{$file}}</a>

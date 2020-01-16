@@ -18,9 +18,9 @@
 
                     <div class="links">
                         <br>
-                        <a href="{{ url('/create') }}">Create a new excel sheet</a>
-                        <br>
                         <a href="{{ url('/download') }}">Download an existing excel sheet</a>
+                        <br>
+                        <a href="{{ url('/create') }}">Create a new excel sheet</a>
                     </div>
                 </div>
             </div>
