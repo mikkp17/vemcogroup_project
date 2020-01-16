@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/create', 'FileController@create');
+Route::get('/download', 'FileController@download');
+Route::get('/download/{id}', 'FileController@download');
