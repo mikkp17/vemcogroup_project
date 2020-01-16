@@ -14,7 +14,8 @@
                     </div>
                     @endif
 
-
+                    This feature is not yet implemented.<br>
+                    <a href="{{ url('/home') }}">Go back</a>
                 </div>
             </div>
         </div>
