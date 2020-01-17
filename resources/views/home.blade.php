@@ -14,7 +14,7 @@
                     </div>
                     @endif
 
-                    You are logged in!<br>
+                    You are logged in!<br><br>
                     Excel sheets available for download:<br>
 
                     <div>
@@ -26,7 +26,7 @@
 
                     <div class="links">
                         <br>
-                        <a href="{{ url('/create') }}">Create a new random report and store it on server</a>
+                        <a href="{{ url('/create') }}">Create a new random report and store it on the server</a>
                     </div>
                 </div>
             </div>
