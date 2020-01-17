@@ -14,13 +14,19 @@
                     </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in!<br>
+                    Excel sheets available for download:<br>
+
+                    <div>
+                        @foreach ($files as $file)
+                        <a href="{{ url('/download/' . $file) }}">{{$file}}</a>
+                        <br>
+                        @endforeach
+                    </div>
 
                     <div class="links">
                         <br>
-                        <a href="{{ url('/download') }}">Download an existing excel sheet</a>
-                        <br>
-                        <a href="{{ url('/create') }}">Create a new excel sheet {Not Implemented}</a>
+                        <a href="{{ url('/create') }}">Create a new random report and store it on server</a>
                     </div>
                 </div>
             </div>
